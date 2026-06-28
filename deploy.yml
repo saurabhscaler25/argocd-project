@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: cont1
-        image: saurabhmak/weather-api/general
+        image: rahamshaik/zomatoproject:myzomatoimage
         ports:
           - containerPort: 80
 ---
