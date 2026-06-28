@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: cont1
-        image: rahamshaik/zomatoproject:myzomatoimage
+        image: hardened-images/catalog/dhi/nginx
         ports:
           - containerPort: 80
 ---
